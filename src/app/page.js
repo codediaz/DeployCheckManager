@@ -1,3 +1,4 @@
+import Footer from '@/app/components/footer';
 export default function Home() {
     return (
         <div className="bg-white dark:bg-black flex flex-col w-full p-4 pb-0 items-center min-h-screen">
@@ -53,6 +54,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
